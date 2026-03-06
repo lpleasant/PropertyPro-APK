@@ -31,7 +31,7 @@
             keyStorePassword: ${{ secrets.KEY_STORE_PASSWORD }}
             keyPassword: ${{ secrets.KEY_PASSWORD }}
           env:
-            # override default build-tools version (29.0.3) -- optional
+            # override default build-tools version (29.0.3) 
             BUILD_TOOLS_VERSION: "31.0.0"
   
               # Send to the APK to Telegram
